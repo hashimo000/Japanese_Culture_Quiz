@@ -18,7 +18,6 @@ fun HomeScreen(navController: NavController) {
         modifier = Modifier
             .fillMaxSize()
     ) {
-        // 背景画像
         Image(
             painter = painterResource(id = R.drawable.japanese_image),
             contentDescription = null,
@@ -27,7 +26,6 @@ fun HomeScreen(navController: NavController) {
                 .scale(1.1f),
         )
 
-        // UI要素
         Column(
             modifier = Modifier
                 .fillMaxSize()
